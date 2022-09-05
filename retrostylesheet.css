@@ -1,0 +1,176 @@
+body {
+    margin: 0%;
+    background-color: rgb(54, 69, 79);
+}
+
+ul.top-nav-bar {
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: cover;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(247, 244, 234);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(253, 94, 83);
+    border-width: medium;
+}
+
+li.logo {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.7em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.7em;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 50%;
+    font-size: 1.6em;
+}
+
+li.logo:hover {
+    border-color: rgb(54, 69, 79);
+}
+  
+li.about {
+    display: inline;
+    vertical-align: middle;
+    margin-left: -2.5em;
+    font-family: "Ledger", serif;
+    font-size: 1.25em;
+}
+
+li.contact {
+    display: inline;
+    vertical-align: middle;
+    font-family: "Ledger", serif;
+    font-size: 1.25em;
+}
+  
+li.logo a:link, li.about a:link, li.contact a:link {
+    color: rgb(253, 94, 83);
+    text-decoration: none;
+}
+
+li.logo a:visited, li.about a:visited, li.contact a:visited {
+    color: rgb(253, 94, 83);
+    text-decoration: none;
+}
+  
+li.logo a:hover, li.about a:hover, li.contact a:hover {
+    color: rgb(54, 69, 79);
+    text-decoration: none;
+}
+
+li.logo a:active, li.about a:active, li.contact a:active {
+    color: rgb(54, 69, 79);
+    text-decoration: none;
+}
+
+div.herobox {
+    margin-top: 0%;
+    width: cover;
+    overflow: hidden;
+    background-color: rgb(253, 94, 83);
+    color: rgb(247, 244, 234);
+    font-family: "Ledger", serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+h1.herobox-primary-title {
+    text-align: left;
+    margin-left: 1em;
+}
+
+h2.herobox-secondary-title {
+    text-align: left;
+    margin-left: 1.25em;
+}
+
+h3 {
+    text-align: left; 
+    margin-left: 1.5em;
+    padding-bottom: 0.25em;
+}
+
+div.main-body-box {
+    background-color: rgb(247, 244, 234);
+    border-color: rgb(253, 94, 83);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: medium;
+}
+
+table {
+    position: center;
+    width: 100%;
+    border-spacing: 2em 2em;
+}
+
+th {
+    position: relative;
+    width: 33%;
+    border: none;
+}
+
+img {
+    position: center;
+    width: 20em;
+    height: 15em;
+    border: 1px solid;
+    border-width: medium;
+    border-color: rgb(54, 69, 79);
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+p.page-title {
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    background-color: rgba(253, 94, 83, 0.75);
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-family: "Ledger", serif;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+p.body-paragraph {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+iframe {
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    width: 60%;
+    height: 140em;
+    border: 1px solid;
+    border-width: medium;
+    border-color: rgb(54, 69, 79);
+}
+
+footer {
+    text-align: center;
+    width: cover;
+    color: rgb(247, 244, 234);
+}
