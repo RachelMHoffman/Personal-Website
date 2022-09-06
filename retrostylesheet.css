@@ -1,3 +1,5 @@
+/*UNIVERSAL STYLES*/
+
 body {
     margin: 0%;
     background-color: rgb(54, 69, 79);
@@ -90,12 +92,12 @@ h1.herobox-primary-title {
 
 h2.herobox-secondary-title {
     text-align: left;
-    margin-left: 1.25em;
+    margin-left: 1.5em;
 }
 
 h3 {
     text-align: left; 
-    margin-left: 1.5em;
+    margin-left: 1.9em;
     padding-bottom: 0.25em;
 }
 
@@ -106,6 +108,14 @@ div.main-body-box {
     border-bottom-style: solid;
     border-width: medium;
 }
+
+footer {
+    text-align: center;
+    width: cover;
+    color: rgb(247, 244, 234);
+}
+
+/*MAIN BODY BOX LINKS ON LANDING PAGE*/
 
 table {
     position: center;
@@ -151,10 +161,80 @@ p.page-title {
     font-weight: bold;
 }
 
+/*MAIN BODY BOX ON ABOUT PAGE*/
+
+div.about-page-main-body-box {
+    background-image: url('LinkedIn-Banner-Image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: rgb(253, 94, 83);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: medium;
+}
+
 p.body-paragraph {
+    margin-top: 2em;
     margin-left: 10em;
     margin-right: 10em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgba(247, 244, 234, 0.5);
+    color: rgb(0, 0, 0);
+    font-family: "Ledger", serif;
+    font-size: 1.10em;
+    line-height: 1.6em;
 }
+
+/*CONTACT FORM ON CONTACT PAGE*/
+
+form {
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+label {
+    color: rgb(253, 94, 83);
+    font-family: "Ledger", serif;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email] {
+    vertical-align: middle;
+    width: 25em;
+    margin-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+textarea.message {
+    vertical-align: middle;
+    width: 25em;
+    margin-left: 3.9em;
+    padding-bottom: 10em;
+}
+
+button {
+    margin-left: 30.25em;
+    padding-top: 1em; 
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(54, 69, 79);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+/*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
 
 iframe {
     display: block;
@@ -167,10 +247,4 @@ iframe {
     border: 1px solid;
     border-width: medium;
     border-color: rgb(54, 69, 79);
-}
-
-footer {
-    text-align: center;
-    width: cover;
-    color: rgb(247, 244, 234);
 }

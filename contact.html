@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>RH Personal Website</title>
+  <title>R | H Personal Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="retrostylesheet.css">
@@ -39,11 +39,21 @@
 <br><br>
 
 <div class="main-body-box">
-  <p class="body-paragraph">Cupcake ipsum dolor sit amet. Wafer liquorice cake gummies pudding chupa chups. Wafer marzipan croissant cake shortbread jelly beans caramels pie sugar plum.</p>
-  <p class="body-paragraph">Pudding carrot cake oat cake cake apple pie chocolate cake powder gummi bears croissant. Dragée cupcake croissant cupcake halvah gummi bears. Jelly chocolate gingerbread jelly beans sesame snaps croissant. Biscuit jelly powder cheesecake wafer.</p>
-  <p class="body-paragraph">Marshmallow pastry cupcake sweet chocolate cake. Chocolate cake sugar plum apple pie marshmallow toffee powder halvah soufflé chocolate. Gummies sweet roll gummi bears soufflé jelly cake.</p>
-  <p class="body-paragraph">Cake fruitcake brownie jelly beans ice cream chocolate croissant ice cream. Sweet roll pie cake candy canes cupcake carrot cake dragée. Apple pie powder bear claw apple pie cotton candy.</p>
-  <p class="body-paragraph">Tart apple pie cookie sugar plum lollipop danish. Ice cream brownie danish caramels sweet donut. Ice cream dragée tart chocolate cake croissant. Icing muffin lollipop tiramisu cake chupa chups croissant topping chocolate cake.</p>
+  <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name:</label> 
+      <input type="text" name="name"/>
+    </p>
+    <p>
+      <label>Your Email:</label> 
+      <input type="email" name="email"/>
+    </p>
+    <p>
+      <label>Message:</label>
+      <textarea class="message" textarea name="message"></textarea>
+    </p>
+    <button type="submit">SEND</button>
+  </form>
 </div>
 
 <br>
