@@ -38,6 +38,7 @@ li.logo {
 
 li.logo:hover {
     border-color: rgb(54, 69, 79);
+    color: rgb(54, 69, 79);
 }
   
 li.about {
@@ -164,7 +165,7 @@ p.page-title {
 /*MAIN BODY BOX ON ABOUT PAGE*/
 
 div.about-page-main-body-box {
-    background-image: url('LinkedIn-Banner-Image.jpg');
+    background-image: url('CLT-City-Image-Photo-by-Carissa-Rogers-on-Unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,22 +204,31 @@ label {
     font-weight: bold;
 }
 
-input[type=text], input[type=email] {
+input[type=text] {
+    width: 15.25em;
     vertical-align: middle;
-    width: 25em;
     margin-left: 2em;
-    padding-bottom: 1.5em;
+    font-size: 1.15em;
+    font-family:'Times New Roman', Times, serif;
 }
 
-textarea.message {
+input[type=email] {
+    width: 15.25em;
     vertical-align: middle;
-    width: 25em;
-    margin-left: 3.9em;
-    padding-bottom: 10em;
+    margin-left: 2.2em;
+    font-size: 1.15em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+textarea {
+    vertical-align: top;
+    margin-left: 0.9em;
+    font-size: 1.15em;
+    font-family:'Times New Roman', Times, serif;
 }
 
 button {
-    margin-left: 30.25em;
+    margin-left: 27.3em;
     padding-top: 1em; 
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -227,6 +237,7 @@ button {
     border-radius: 4px;
     background-color: rgb(54, 69, 79);
     color: rgb(255, 255, 255);
+    letter-spacing: 1px;
     cursor: pointer;
 }
   
