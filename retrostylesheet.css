@@ -83,7 +83,7 @@ div.herobox {
     background-color: rgb(253, 94, 83);
     color: rgb(247, 244, 234);
     font-family: "Ledger", serif;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 h1.herobox-primary-title {
@@ -235,7 +235,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 button {
-    margin-left: 27.3em;
+    margin-left: 27.25em;
     padding-top: 1em; 
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -248,11 +248,7 @@ button {
     cursor: pointer;
 }
   
-button:hover {
-    background-color: rgb(0, 0, 0);
-}
-
-button:active {
+button:hover, button:active {
     background-color: rgb(0, 0, 0);
 }
 
