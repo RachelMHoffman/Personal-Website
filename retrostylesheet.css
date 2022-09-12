@@ -40,22 +40,18 @@ li.logo:hover {
     border-color: rgb(54, 69, 79);
     color: rgb(54, 69, 79);
 }
-  
+
 li.about {
+    margin-left: -2.5em;
+}
+  
+li.about, li.contact {
     display: inline;
     vertical-align: middle;
-    margin-left: -2.5em;
     font-family: "Ledger", serif;
     font-size: 1.25em;
 }
 
-li.contact {
-    display: inline;
-    vertical-align: middle;
-    font-family: "Ledger", serif;
-    font-size: 1.25em;
-}
-  
 li.logo a:link, li.about a:link, li.contact a:link {
     color: rgb(253, 94, 83);
     text-decoration: none;
@@ -103,6 +99,7 @@ h3 {
 }
 
 div.main-body-box {
+    overflow-x: auto;
     background-color: rgb(247, 244, 234);
     border-color: rgb(253, 94, 83);
     border-top-style: solid;
@@ -122,21 +119,25 @@ table {
     position: center;
     width: 100%;
     border-spacing: 2em 2em;
+    font-family: "Ledger", serif;
 }
 
 th {
     position: relative;
     width: 33%;
-    border: none;
+}
+
+td {
+    padding-top: 1em;
+    border-top: 2px solid rgb(54, 69, 79);
 }
 
 img {
     position: center;
     width: 20em;
     height: 15em;
-    border: 1px solid;
+    border: 1px solid rgb(54, 69, 79);;
     border-width: medium;
-    border-color: rgb(54, 69, 79);
     border-radius: 5%;
     opacity: 0.5;
 }
@@ -205,16 +206,6 @@ label {
     font-weight: bold;
 }
 
-input[type=text], input[type=email], textarea {
-    width: 15.25em;
-    vertical-align: top;
-    margin-bottom: 0.5em;
-    border-width: 2px;
-    border-color:rgb(54, 69, 79);
-    font-size: 1.15em;
-    font-family:'Times New Roman', Times, serif;
-}
-
 input[type=text] {
     margin-left: 2em;
 }
@@ -228,10 +219,18 @@ textarea {
     resize: none;
 }
 
+input[type=text], input[type=email], textarea {
+    width: 15.25em;
+    vertical-align: top;
+    margin-bottom: 0.5em;
+    border: 2px solid rgb(54, 69, 79);
+    font-size: 1.15em;
+    font-family:'Times New Roman', Times, serif;
+}
+
 input[type=text]:focus, input[type=email]:focus, textarea:focus {
     outline: none;
-    border-width: 3px;
-    border-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
 }
 
 button {
@@ -262,7 +261,6 @@ iframe {
     margin-bottom: 2em;
     width: 60%;
     height: 140em;
-    border: 1px solid;
+    border: 1px solid rgb(54, 69, 79);
     border-width: medium;
-    border-color: rgb(54, 69, 79);
 }
