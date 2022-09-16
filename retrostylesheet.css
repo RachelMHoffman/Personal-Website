@@ -1,9 +1,9 @@
-/*UNIVERSAL STYLES*/
-
 body {
     margin: 0%;
     background-color: rgb(54, 69, 79);
 }
+
+/*Top Nav Bar - Start*/
 
 ul.top-nav-bar {
     text-align: center;
@@ -72,6 +72,10 @@ li.logo a:active, li.about a:active, li.contact a:active {
     text-decoration: none;
 }
 
+/*End*/
+
+/*Hero Box - Start*/
+
 div.herobox {
     margin-top: 0%;
     width: cover;
@@ -98,14 +102,41 @@ h3 {
     padding-bottom: 0.25em;
 }
 
-div.main-body-box {
+/*End*/
+
+/*Main Body Boxes - Start*/
+
+div.main-body-box, div.about-page-main-body-box, div.contact-page-main-body-box {
     overflow-x: auto;
-    background-color: rgb(247, 244, 234);
     border-color: rgb(253, 94, 83);
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: medium;
 }
+
+div.main-body-box {
+    background-color: rgb(247, 244, 234);
+}
+
+div.about-page-main-body-box, div.contact-page-main-body-box {
+    background: url('CLT-City-Image-Photo-by-Carissa-Rogers-on-Unsplash.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+p.body-paragraph {
+    margin-top: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgba(247, 244, 234, 0.5);
+    color: rgb(0, 0, 0);
+    font-family: "Ledger", serif;
+    font-size: 1.10em;
+    line-height: 1.6em;
+}
+
+/*End*/
 
 footer {
     text-align: center;
@@ -113,7 +144,7 @@ footer {
     color: rgb(247, 244, 234);
 }
 
-/*MAIN BODY BOX LINKS ON LANDING PAGE*/
+/*MAIN BODY BOX LINKS ON LANDING PAGE - Start*/
 
 table {
     position: center;
@@ -163,44 +194,23 @@ p.page-title {
     font-weight: bold;
 }
 
-/*MAIN BODY BOX ON ABOUT PAGE*/
+/*End*/
 
-div.about-page-main-body-box {
-    background-image: url('CLT-City-Image-Photo-by-Carissa-Rogers-on-Unsplash.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-color: rgb(253, 94, 83);
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: medium;
-}
-
-p.body-paragraph {
-    margin-top: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 2em;
-    padding: 1em;
-    background-color: rgba(247, 244, 234, 0.5);
-    color: rgb(0, 0, 0);
-    font-family: "Ledger", serif;
-    font-size: 1.10em;
-    line-height: 1.6em;
-}
-
-/*CONTACT FORM ON CONTACT PAGE*/
+/*CONTACT FORM ON CONTACT PAGE - Start*/
 
 form {
     width: 100%;
     text-align: center;
     margin-top: 3em;
     margin-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(247, 244, 234, 0.5);
 }
 
 label {
     display: inline-block;
-    color: rgb(253, 94, 83);
+    color: rgb(0, 0, 0);
     font-family: "Ledger", serif;
     font-size: 1.15em;
     font-weight: bold;
@@ -251,7 +261,9 @@ button:hover, button:active {
     background-color: rgb(0, 0, 0);
 }
 
-/*RESUME PRESENTATION WINDOW ON RESUME PAGE*/
+/*End*/
+
+/*RESUME PRESENTATION WINDOW ON RESUME PAGE - Start*/
 
 iframe {
     display: block;
@@ -264,3 +276,5 @@ iframe {
     border: 1px solid rgb(54, 69, 79);
     border-width: medium;
 }
+
+/*End*/
