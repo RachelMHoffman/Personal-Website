@@ -104,10 +104,11 @@ h3 {
 
 /*End*/
 
-/*Main Body Boxes - Start*/
+/*Main Text Boxes - Start*/
 
 div.main-body-box, div.about-page-main-body-box, div.contact-page-main-body-box {
-    overflow-x: auto;
+    overflow: auto;
+    display: block;
     border-color: rgb(253, 94, 83);
     border-top-style: solid;
     border-bottom-style: solid;
@@ -124,10 +125,11 @@ div.about-page-main-body-box, div.contact-page-main-body-box {
 }
 
 p.body-paragraph {
+    width: 50em;
+    margin-left: 15em;
     margin-top: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
     margin-bottom: 2em;
+    margin-right: 15em;
     padding: 1em;
     background-color: rgba(247, 244, 234, 0.5);
     color: rgb(0, 0, 0);
@@ -199,38 +201,35 @@ p.page-title {
 /*CONTACT FORM ON CONTACT PAGE - Start*/
 
 form {
-    width: 100%;
+    display: inline-block;
+    width: 50em;
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
     background-color: rgba(247, 244, 234, 0.5);
 }
 
 label {
+    width: 10em;
     display: inline-block;
+    text-align: right;
     color: rgb(0, 0, 0);
     font-family: "Ledger", serif;
     font-size: 1.15em;
     font-weight: bold;
 }
 
-input[type=text] {
-    margin-left: 2em;
-}
-
-input[type=email] {
-    margin-left: 2.15em;
-}
-
 textarea {
-    margin-left: 0.85em;
     resize: none;
 }
 
 input[type=text], input[type=email], textarea {
     width: 15.25em;
+    margin-left: 1em;
     vertical-align: top;
     margin-bottom: 0.5em;
     border: 2px solid rgb(54, 69, 79);
@@ -244,7 +243,6 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 button {
-    margin-left: 27.25em;
     padding-top: 1em; 
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -267,14 +265,13 @@ button:hover, button:active {
 
 iframe {
     display: block;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    width: 60%;
+    overflow: scroll;
+    margin-left: 15em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 15em;
+    width: 60em;
     height: 140em;
-    border: 1px solid rgb(54, 69, 79);
-    border-width: medium;
 }
 
 /*End*/
