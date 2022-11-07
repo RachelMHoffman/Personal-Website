@@ -3,69 +3,116 @@
 <html lang="en">
 
 <head>
-  <title>R | H Personal Website</title>
+  <title>Rachel's Personal Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="retrostylesheet.css">
-  <!--
-  <script src="JS LINK HERE"></script>
-  -->
-  <style>
-    li.logo {
-      border-color: rgb(54, 69, 79);
-    } 
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <script src="https://kit.fontawesome.com/1471871b71.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<ul class="top-nav-bar">
-  <li class="about"><a href="about.html">About</a></li>
-  <li class="logo">R | H</li>
-  <li class="contact"><a href="contact.html">Contact</a></li>
-</ul>
-
-<br><br>
-
 <div class="herobox">
-  <h1 class="herobox-primary-title">Welcome.</h1>
-  <h2 class="herobox-secondary-title">This is my personal website made to demonstrate my proficiency in HTML/CSS.</h2>
-  <h3>Please take a look below for my current resume, up-to-date porfolio, and my LinkedIn profile.</h3>
-</div>
-
-<br><br>
-
-<div class="main-body-box">
-  <table>
+  <table class="herobox-table">
     <tr>
-      <th>
-        <a href="resume.html"><img src="Resume-Thumbnail.png" alt="Screenshot Image">
-        <p class="page-title">Resume</p></a>
-      </th>
-      <th>
-        <a href="https://rmhoffman.myportfolio.com/"><img src="Portfolio-Website-Thumbnail.png" alt="Screenshot Image">
-        <p class="page-title">Portfolio</p></a>
-      </th>
-      <th>
-        <a href="https://www.linkedin.com/in/rachelhoffmanmba/"><img src="Linkedin-Profile-Thumbnail.png" alt="Screenshot Image">
-        <p class="page-title">LinkedIn</p></a>
-      </th>
+      <td class="herobox-title">Welcome
+      </td>
+      <td class="herobox-table-image" rowspan="2">
+        <img class="herobox-table-image" src="Headshot-Photo.png" alt="headshot">
+      </td>
     </tr>
     <tr>
-      <td>Resume summarizes my most recent employment experiences.</td>
-      <td>Adobe Portfolio website consists of my personal UX/UI and Logo Design case studies, and digital illustrations.</td>
-      <td>LinkedIn profile contains a more thorough version of my employment history, and my educational and volunteer background.</td>
+      <td class="herobox-paragraph">
+        <p class="indent">For some quick background information on myself, I earned my B.S. in Business Admin. and MBA while participating in several on-campus organizations and working as a graduate assistant for several professors. 
+        I eventually joined the Anti-Money Laundering (AML) Analysis team at U.S. Bank, where I worked for several years.</p>
+        <p class="indent">I've now changed focus and am making a career pivot towards user experience research & user interface design, with a specialty in logo design.
+        I am interested in entry-level, remote or hybrid design roles within teams open to welcoming first-time designers. 
+        In my spare time, I love working out, volunteering, traveling, video games, and watching movies and TV.</p>
+      </td>
     </tr>
   </table>
 </div>
 
-<br>
+<div class="main-body-box">
+  <table class="portfolio">
+    <tr>
+      <td class="portfolio-header" colspan="2">
+          My Portfolio
+      </td>
+    </tr>
+    <tr>
+      <td class="main-table-image">
+        <img class="main-table-image" src="UX-Design-Work-Photo-by-UX-Store-on-Unsplash.png" alt="Mockup Image">
+      </td>
+      <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/ux-ui-design" target="_blank">
+            <div class="button-title">UX/UI Research + Design Samples</div>
+            <hr>
+            <br>
+            <div class="button-description">Case studies detailng the start to finish process of building both web and mobile prototypes for several design brief challenges</div>
+          </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/logo-design" target="_blank">
+            <div class="button-title">Logo Design Samples</div>
+            <hr>
+            <br>
+            <div class="button-description">Projects detailing the start to finish process of designing logos for several design brief challenges</div>
+          </a>
+      </td>
+      <td class="main-table-image"> 
+        <img class="main-table-image" src="Grid-Paper-Photo-by-Mehdi-MeSSrro-on-Unsplash   .jpg" alt="Mockup Image">
+      </td>
+    </tr>
+    <tr>
+      <td class="main-table-image">
+        <img class="main-table-image" src="Drawing-Tablet-Photo-by-Kelly-Sikkema-on-Unsplash   .jpg" alt="Mockup Image">
+      </td>
+      <td class="table-button">
+          <a href="https://rmhoffman.myportfolio.com/digital-art" target="_blank">
+            <div class="button-title">Digital Art Gallery</div>
+            <hr>
+            <br>
+            <div class="button-description">Display of personal digital illustrations created in my free time</div>
+          </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<footer>
-  (c) Rachel Hoffman 2022
-</footer>
-
-<br>
+<div class="footer">
+  <p class="footer-header">Links and More Information</p>
+    <ul class="links">
+      <li class="link">
+        <a class="icon" href="https://www.linkedin.com/in/rachelhoffmanmba/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-4x"></i>
+        </a>
+      </li>
+      <li class="link">
+        <a class="icon" href="https://github.com/RachelMHoffman" target="_blank">
+          <i class="fa-brands fa-square-github fa-4x"></i> 
+        </a>
+      </li>
+      <li class="link">
+        <a class="icon" href="mailto:rmhoffman17@gmail.com" target="_blank">
+          <i class="fa-solid fa-square-envelope fa-4x"></i>
+        </a>
+      </li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <p class="end-paragraph">
+      For asset credits and a summary on my experience constructing this website's HTML + CSS, 
+      please visit the README document included in the Project Files on my GitHub, 
+      <a href="https://github.com/RachelMHoffman/Personal-Website-Retro-Version/blob/main/README.md" target="_blank">linked here.</a>
+    </p>
+    <br>
+    <p class="copyright">(c) Rachel Hoffman, 2022</p>
+</div>
 
 </body>
 

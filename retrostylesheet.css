@@ -1,277 +1,243 @@
+/* Color Library, source:https://www.schemecolor.com/vintage-autumn.php */
+
+#MossGreen {color: rgb(142, 151, 99);}
+#DarkVanilla {color: rgb(219, 201, 157);}
+#Tumbleweed {color: rgb(218, 170, 125);}
+#NewYorkPink {color: rgb(211, 135, 136);}
+#TurkishRose {color: rgb(168, 111, 129);}
+#OldLavender {color: rgb(116, 90, 117);}
+
+/*UNIVERSAL STYLES -- Start*/
+
 body {
     margin: 0%;
-    background-color: rgb(54, 69, 79);
-}
-
-/*Top Nav Bar - Start*/
-
-ul.top-nav-bar {
-    text-align: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    width: cover;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: rgb(247, 244, 234);
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: rgb(253, 94, 83);
-    border-width: medium;
-}
-
-li.logo {
-    display: inline;
-    vertical-align: middle;
-    margin-left: 1em;
-    margin-right: 1em;
-    padding-top: 0.7em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.7em;
-    border-style: solid;
-    border-width: medium;
-    border-radius: 50%;
-    font-size: 1.6em;
-}
-
-li.logo:hover {
-    border-color: rgb(54, 69, 79);
-    color: rgb(54, 69, 79);
-}
-
-li.about {
-    margin-left: -2.5em;
-}
-  
-li.about, li.contact {
-    display: inline;
-    vertical-align: middle;
+    background-image: url('BG-Photo-by-yucar-studios-on-Unsplash\ \ \ .jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Ledger", serif;
-    font-size: 1.25em;
 }
 
-li.logo a:link, li.about a:link, li.contact a:link {
-    color: rgb(253, 94, 83);
+a:link {
     text-decoration: none;
 }
 
-li.logo a:visited, li.about a:visited, li.contact a:visited {
-    color: rgb(253, 94, 83);
-    text-decoration: none;
-}
-  
-li.logo a:hover, li.about a:hover, li.contact a:hover {
-    color: rgb(54, 69, 79);
+a:visited {
     text-decoration: none;
 }
 
-li.logo a:active, li.about a:active, li.contact a:active {
-    color: rgb(54, 69, 79);
+a:hover {
     text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
 }
 
 /*End*/
 
-/*Hero Box - Start*/
+/*HEROBOX TABLE -- Start*/
 
 div.herobox {
-    margin-top: 0%;
-    width: cover;
-    overflow: hidden;
-    background-color: rgb(253, 94, 83);
-    color: rgb(247, 244, 234);
-    font-family: "Ledger", serif;
+    overflow: scroll;
+}
+
+table.herobox-table {
+    width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    border-spacing: 3em 0em;
+}
+
+td.herobox-title {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: rgba(116, 90, 117, 0.75);
+    color: rgb(219, 201, 157);
+    font-family: 'Cookie', sans-serif;
+    font-size: 3em;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-h1.herobox-primary-title {
-    text-align: left;
-    margin-left: 1em;
-}
-
-h2.herobox-secondary-title {
-    text-align: left;
-    margin-left: 1.5em;
-}
-
-h3 {
-    text-align: left; 
-    margin-left: 1.9em;
-    padding-bottom: 0.25em;
-}
-
-/*End*/
-
-/*Main Text Boxes - Start*/
-
-div.main-body-box, div.about-page-main-body-box, div.contact-page-main-body-box {
-    overflow: auto;
+img.herobox-table-image {
+    width: 25em;
+    height: 20em;
     display: block;
-    border-color: rgb(253, 94, 83);
-    border-top-style: solid;
-    border-bottom-style: solid;
+    border-color: rgb(116, 90, 117);
+    border-style: solid;
     border-width: medium;
+    border-radius: 30%;
 }
 
-div.main-body-box {
-    background-color: rgb(247, 244, 234);
-}
-
-div.about-page-main-body-box, div.contact-page-main-body-box {
-    background: url('CLT-City-Image-Photo-by-Carissa-Rogers-on-Unsplash.jpg') no-repeat center fixed;
-    background-size: cover;
-}
-
-p.body-paragraph {
-    width: 50em;
-    margin-left: 15em;
+td.herobox-paragraph {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-right: 15em;
     padding: 1em;
-    background-color: rgba(247, 244, 234, 0.5);
+    background-color: rgba(219, 201, 157, 0.75);
     color: rgb(0, 0, 0);
-    font-family: "Ledger", serif;
-    font-size: 1.10em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+p.indent {
+    text-indent: 1em;
 }
 
 /*End*/
 
-footer {
-    text-align: center;
-    width: cover;
-    color: rgb(247, 244, 234);
+/*PORTFOLIO TABLE - Start*/
+
+div.main-body-box {
+    overflow: scroll;
 }
 
-/*MAIN BODY BOX LINKS ON LANDING PAGE - Start*/
-
-table {
-    position: center;
-    width: 100%;
-    border-spacing: 2em 2em;
-    font-family: "Ledger", serif;
+table.portfolio {
+    width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    border-spacing: 0;
 }
 
-th {
-    position: relative;
-    width: 33%;
+td.portfolio-header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    background-color: rgba(142, 151, 99, 0.75);
+    border-bottom: medium solid rgb(142, 151, 99);
+    font-family: 'Cookie', sans-serif;
+    color: rgb(219, 201, 157);
+    font-size: 2.75em;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-td {
-    padding-top: 1em;
-    border-top: 2px solid rgb(54, 69, 79);
-}
-
-img {
-    position: center;
-    width: 20em;
-    height: 15em;
-    border: 1px solid rgb(54, 69, 79);;
+td.main-table-image {
+    border-color: rgb(142, 151, 99);
+    border-style: solid;
     border-width: medium;
-    border-radius: 5%;
+    padding: 0em;
+}
+
+img.main-table-image {
+    width: 37.5em;
+    display: block;
+}
+
+td.table-button {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(142, 151, 99, 0.75);
     opacity: 0.5;
 }
 
-img:hover {
+div.button-title {
+    font-size: 2em;
+}
+
+div.button-description {
+    font-size: 1.5em;
+}
+
+td.table-button:hover {
     opacity: 1;
 }
 
-p.page-title {
-    position: absolute;
-    top: 45%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    padding-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 1em;
-    background-color: rgba(253, 94, 83, 0.75);
-    background-size: 100% 100%;
+td.table-button a:link {
+    padding: 10em;
     color: rgb(0, 0, 0);
-    font-family: "Ledger", serif;
-    font-size: 1.15em;
-    font-weight: bold;
+}
+
+td.table-button a:visited {
+    color: rgb(0, 0, 0);
+}
+
+td.table-button a:hover {
+    color: rgb(0, 0, 0);
+}
+
+td.table-button a:active {
+    color: rgb(0, 0, 0);
 }
 
 /*End*/
 
-/*CONTACT FORM ON CONTACT PAGE - Start*/
+/*FOOTER SECTION -- Start*/
 
-form {
-    display: inline-block;
-    width: 50em;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 20em;
-    margin-right: 20em;
-    background-color: rgba(247, 244, 234, 0.5);
-}
-
-label {
-    width: 10em;
-    display: inline-block;
-    text-align: right;
-    color: rgb(0, 0, 0);
-    font-family: "Ledger", serif;
-    font-size: 1.15em;
-    font-weight: bold;
-}
-
-textarea {
-    resize: none;
-}
-
-input[type=text], input[type=email], textarea {
-    width: 15.25em;
-    margin-left: 1em;
-    vertical-align: top;
-    margin-bottom: 0.5em;
-    border: 2px solid rgb(54, 69, 79);
-    font-size: 1.15em;
-    font-family:'Times New Roman', Times, serif;
-}
-
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
-    outline: none;
-    border: 3px solid rgb(0, 0, 0);
-}
-
-button {
-    padding-top: 1em; 
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1em;
-    border: none;
-    border-radius: 4px;
-    background-color: rgb(54, 69, 79);
-    color: rgb(255, 255, 255);
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-  
-button:hover, button:active {
-    background-color: rgb(0, 0, 0);
-}
-
-/*End*/
-
-/*RESUME PRESENTATION WINDOW ON RESUME PAGE - Start*/
-
-iframe {
-    display: block;
+div.footer {
+    width: 100%;
     overflow: scroll;
-    margin-left: 15em;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    margin-right: 15em;
-    width: 60em;
-    height: 140em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(116, 90, 117, 0.75);
+}
+
+p.footer-header {
+    font-family: 'Cookie', sans-serif;
+    color: rgb(219, 201, 157);
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+ul.links {
+    margin-left: -2.5em;
+    list-style-type: none;
+}
+
+li.link {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline;
+}
+
+i {
+    color: rgb(218, 170, 125);
+    opacity: 0.75;
+}
+
+i:hover {
+    opacity: 1;
+}
+
+p.end-paragraph {
+    width: 50%;
+    margin: auto;
+    color: rgb(219, 201, 157);
+    font-weight: bolder;
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+p.end-paragraph a:link {
+    color: rgb(219, 201, 157);
+}
+
+p.end-paragraph a:visited {
+    color: rgb(219, 201, 157);
+}
+
+p.end-paragraph a:hover {
+    color: rgb(219, 201, 157);
+    text-decoration-line: underline;
+}
+
+p.end-paragraph a:active {
+    color: rgb(219, 201, 157);
+    text-decoration-line: underline;
+}
+
+p.copyright {
+    color: rgb(219, 201, 157);
+    font-size: 1em;
 }
 
 /*End*/
