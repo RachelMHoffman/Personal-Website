@@ -1,6 +1,6 @@
 # Personal-Website-Retro-Version
 
-This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS.
+This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS. <a href="https://RachelMHoffman.github.io/Personal-Website-Retro-Version/">Click here to view the project.</a>
 
 # Asset Credits
 
