@@ -1,6 +1,13 @@
-# Personal-Website-Retro-Version
+# My Personal Website (Retro Version)
 
-This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS. <a href="https://RachelMHoffman.github.io/Personal-Website-Retro-Version/">Click here to view the project.</a>
+This is a personally coded website I made in 2022 to demonstrate my proficiency in HTML/CSS.
+
+# Project Screenshots
+
+<img src="Herobox-Screenshot.png" alt="project screenshot">
+<img src="Portfolio-Box-Screenshot.png" alt="project screenshot">
+<img src="Portfolio-Box-Screenshot-2.png" alt="project screenshot">
+<img src="Footer-Screenshot.png" alt="project screenshot">
 
 # Asset Credits
 
