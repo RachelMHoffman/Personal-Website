@@ -6,7 +6,7 @@ This is a personally coded website I made in 2022 using Visual Studio Code. My g
 
 <img src="Herobox-Screenshot.png" alt="project screenshot">
 
-I searched for and abided by a color palette involing the themes of "Vintage", "Retro", "Rustic", or "Fall", to aid me in element color decision-making. I selected a professional Serif-style font to use for body text and a graceful Handwritten-style font to use for heading text. I implemented a welcome message and an About Me paragraph that I also use on my portfolio website and Linkedin profile.
+I searched for and abided by a color palette involving the themes of "Vintage", "Retro", "Rustic", or "Fall", to aid me in element color decision-making. I selected a professional Serif-style font to use for body text and a graceful Handwritten-style font to use for heading text. I implemented a welcome message and an About Me paragraph that I also use on my portfolio website and Linkedin profile.
 
 <img src="Portfolio-Box-Screenshot.png" alt="project screenshot">
 
@@ -14,7 +14,7 @@ I searched for and used license-free images of various office visuals to get acr
 
 <img src="Portfolio-Box-Screenshot-2.png" alt="project screenshot">
 
-To create visual interest, I implemented a hover effect on the three cells containing the links, in order to bring the cells' background color opacities up -- drawing the eye more towards the text within. The font also changes to a darker color on hover, to establish increased readability against a cell's darkened background color.
+To create visual interest, I implemented a hover effect on the three cells containing the links to bring the cells' background color opacities up -- drawing the eye towards the text within. The font also changes to a darker color on hover, to establish increased readability against a cell's darkened background color.
 
 <img src="Footer-Screenshot.png" alt="project screenshot">
 
@@ -33,6 +33,4 @@ Link icon SVGs (LinkedIn, GitHub, & Email) were sourced from Font Awesome.
 
 # Terms of Use
 
-As this code was written from scratch with no bootstrapped aspects, and was written for the purpose of delivering proof of concept to potential employers - I would appreciate this code not be copied and re-used, as it could give the idea to professionals visiting this project that this project is unoriginal and could suggest possible plagarism on my part. As for the assets not created by myself, I obviously don't discourage utilizing these; please see the Asset Credits section above for sourcing information.
-
-
+As this code was written from scratch with no bootstrapped aspects, and was written for the purpose of delivering proof of concept to potential employers - I would appreciate this code not be copied and re-used, as it could give the idea to professionals visiting this project that this project is unoriginal and could suggest possible plagiarism on my part. As for the assets not created by myself, I obviously don't discourage utilizing these; please see the Asset Credits section above for sourcing information.
